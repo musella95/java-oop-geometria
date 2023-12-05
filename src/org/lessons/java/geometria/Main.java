@@ -12,6 +12,8 @@ public class Main {
         Rettangolo myRettangolo = new Rettangolo(userAltezza,userBase);
         System.out.println("questo è il perimetro: " + myRettangolo.calcoloPerimetro());
         System.out.println("questa è l'aria" + myRettangolo.calocoloAria());
-
+        System.out.println("questo è il rettangolo che esce fuori");
+        myRettangolo.disegna();
+        scanner.close();
     }
 }

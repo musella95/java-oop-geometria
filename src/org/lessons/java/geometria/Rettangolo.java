@@ -20,9 +20,13 @@ public class Rettangolo {
             return (2*base)+(2*altezza);
         }
         //METODO X DISEGNARE RETTANGOLO IN CONSOLE
-    void disgena(){
+    public void disegna(){
         for (int i = 0; i <base ; i++) {
-            System.out.println();
+            System.out.print('o');
+            for (int j = 0; j <altezza; j++) {
+                System.out.println('o');
+
+            }
         }
     }
     }
