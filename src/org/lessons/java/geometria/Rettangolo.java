@@ -23,11 +23,20 @@ public class Rettangolo {
     public void disegna(){
         for (int i = 0; i <base ; i++) {
             System.out.print('o');
-            for (int j = 0; j <altezza; j++) {
-                System.out.println('o');
-
+        }
+        System.out.println();
+        for (int j = 0; j <altezza - 1 ; j++) {
+            System.out.print('o');
+            for (int i = 0; i<base - 1; i++) {
+            System.out.println(' ');
             }
         }
+        for (int j = 0; j <base ; j++) {
+            System.out.print('o');
+        }
     }
-    }
+       
+
+}
+
 
